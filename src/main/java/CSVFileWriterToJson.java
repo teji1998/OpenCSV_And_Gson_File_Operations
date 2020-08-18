@@ -1,7 +1,6 @@
 import com.google.gson.Gson;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
-
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -9,8 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CSVFileWriterToJson {
-	private static final String SAMPLE_CSV_FILE_PATH = "C:\\Users\\PRITHVIL5\\Desktop\\tejigames\\fellowship\\openCSV\\src\\main\\resources\\readingFromCSV.csv";
-	private static final String SAMPLE_JSON_FILE_PATH = "C:\\Users\\PRITHVIL5\\Desktop\\tejigames\\fellowship\\openCSV\\src\\main\\resources\\writingIntoJson.json";
+	private static final String SAMPLE_CSV_FILE_PATH = "src\\main\\resources\\readingFromCSV.csv";
+	private static final String SAMPLE_JSON_FILE_PATH = "src\\main\\resources\\writingIntoJson.json";
 
 	public static void main(String[] args) {
 		try {
